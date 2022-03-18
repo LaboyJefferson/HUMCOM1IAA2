@@ -1,0 +1,72 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="J.Laboy">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form Jefferson Laboy</title>
+    </head>
+    <body bgcolor="pale brown">
+        <h1><center>SIGN UP NOW!</center></h1>
+            <p>Fields mark (*) are required</p>
+        <forms action="/action_page.php">
+            <fieldset>
+                <legend><h2>Your details</h2></legend>
+                <label for="name">Name* <input type="text", id="name", name="name", placeholder="John Doe" /></label><br>
+                <label for="email">Email* <input type="email", id="email", name="email", placeholder="email@provider.com" /></label><br>
+                <label for="tNumber"></label>Phone* <input type="tel", id="tNumber", name="tNumber", placeholder="09** *** ****" />
+            </fieldset>
+            <fieldset>
+                <legend><h2>Delivery Address</h2></legend>
+                <label>Address 1* <input type="text", id="address1", name="address1"/></label><br>
+                <label>District/Barangay* <input type="text", id="distBara", name="distBara"/></label><br>
+                <label>City* 
+                    <select>
+                        <option value="city">Antipolo</option>
+                        <option value="city">Cagayan De oro</option>
+                        <option value="city">Caloocan</option>
+                        <option value="city">Cebu</option>
+                        <option value="city">Davao City</option>
+                        <option value="city">Metro Manila</option>
+                        <option value="city">Pasig</option>
+                        <option value="city">Quezon City</option>
+                        <option value="city">Taguig</option>
+                        <option value="city">Zamboanga City</option>
+                    </select>
+                </label><br>
+                <label>Postal Code* <input type="tel", id="postCode", name="postCode"/></label><br>
+                <label>Province* 
+                    <select>
+                        <option value="province">Aurora</option>
+                        <option value="province">Bataan</option>
+                        <option value="province">Batanes</option>
+                        <option value="province">Bulacan</option>
+                        <option value="province">Cagayan</option>
+                        <option value="province">Ilocos Norte</option>
+                        <option value="province">Ilocos Sur</option>
+                        <option value="province">Isabela</option>
+                        <option value="province">La Union</option>
+                        <option value="province">Nueva Ecija</option>
+                        <option value="province">Nueva Vizcaya</option>
+                        <option value="province">Pampanga</option>
+                        <option value="province">Tarlac</option>
+                        <option value="province">Zambales</option>
+
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Membership Information</h2></legend>
+                <label for="username">Username* <input type="text", id="username", name="username" /></label><br>
+                <label for="password">Password* <input type="password", id="password", name="password" /></label><br>
+                    <label for="magsSubscription">Magazine Subscription* <br>
+                       <input type="checkbox", name="magsSubscription" value="pcMagazine"> PCMagazine<br> 
+                       <input type="checkbox", name="magsSubscription" value="wired"> Wired<br>
+                        <input type="checkbox", name="magsSubscription" value="computerworld"> Computerworld<br>
+                        <input type="checkbox", name="magsSubscription" value="noSubcribe"> I don't subscribe<br>
+                        <input type="checkbox", name="magsSubscription" value="other"> Other
+                    </label>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </forms>
+    </body>
+</html>
