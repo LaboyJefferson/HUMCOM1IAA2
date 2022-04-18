@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(58, 43, 43);
+}
+
+#firstBox{
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#profile{
+    border-radius: 100px;
+}
+
+#locGame, #locAnime, #locFood, #locRef{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    color: blue;
+    background-color: aqua;
+}
+
+#myFavorites{
+    border: 1px solid;
+}
+
+#myFave{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: white;
+}
+
+.favTitle{
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+#game{
+    background-image: url('_images/NFS.jpg');
+}
+
+#anime{
+    background-image: url('_images/steinsgate1.jpg');
+    color: white;
+}
+
+#food{
+    background-image: url('_images/chocolate.jpg');
+    color: white;
+}
+
+#references{
+    border: 1px solid;
+    text-align: center;
+    color: red;
+}
