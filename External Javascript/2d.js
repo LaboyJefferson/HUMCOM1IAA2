@@ -1,1 +1,0 @@
-alert("Name: Jefferson Laboy\nCourse: BS Computer Science\nYear: 1st Year\nSubject code and Section: HUMCOM1 - IAA2\nSubject Description: Human Computer Interaction");
