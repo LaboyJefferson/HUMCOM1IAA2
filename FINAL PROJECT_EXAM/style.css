@@ -1,0 +1,182 @@
+body{
+    text-align: center;
+    background-color: rgb(63, 190, 148);
+}
+
+
+#search{
+    float: left;
+    margin: 0 0 0 20px ;
+    height: 30px;
+}
+
+#travelBtn2, #eatBtn2, #relaxBtn2{
+    background-color: rgb(0, 238, 255);
+    border: 1px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    width: 100px;
+    height: 50px;
+    font-family: Verdana;
+    font-size: large;
+}
+
+#homeBtn, #aboutBtn, #travelBtn, #eatBtn, #relaxBtn, #videosBtn{
+    border: 1px;
+    padding: 10px;
+    margin: 0 0 10px 10px;
+    width: 100px;
+    height: 50px;
+    color: rgb(47, 0, 255);
+    font-family: Verdana;
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(93, 250, 255);
+    border-radius: 12px;
+}
+
+#homeBtn:hover, #aboutBtn:hover, #travelBtn:hover, #eatBtn:hover, #relaxBtn:hover, #videosBtn:hover,
+#travelBtn2:hover, #eatBtn2:hover, #relaxBtn2:hover{
+    background-color: rgb(0, 255, 157);
+}
+
+#featured{
+    text-align: center;
+}
+
+#f1, #f2, #f3, #f4{
+    font-family: garamond, serif;
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#body{
+    overflow: auto;
+    background-image: url("_images/Cebu-Island.jpg");
+    color: rgb(14, 219, 219);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    height: 300px;
+    margin: 20px;
+}
+
+.subTitles{
+    color: rgb(34, 123, 165);
+    font-family: Tahoma;
+}
+
+#container2{
+    background-color: rgb(170, 170, 255);
+    height: 50px;
+    width: 100%;
+
+}
+
+#pic, #abtMe, #mail{
+    box-sizing: border-box;
+    border: hidden;
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+}
+
+#mail{
+    text-align: left;
+}
+
+#IMFITPH{
+    width: 50%;
+    height: 125px;
+}
+
+.para{
+    font-family: Helvetica, sans-serif;
+}
+
+#id{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+
+footer {
+    display: inline-block;
+  background-color: rgb(119, 91, 82);
+  color: rgb(250, 250, 250);
+}
+
+#abtMe{
+    text-align: left;
+}
+
+#subBtn, #insMail{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#subBtn:hover{
+    background-color: aqua;
+}
+
+#container1, #container2{
+    float: left;
+    box-sizing: border-box;
+
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 40%;
+    padding: 25px;
+    margin: 20px 20px 0 0;
+    font-family: Tahoma;
+
+}
+
+#container1{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+}
+
+#container2{
+    background-color: rgb(63, 190, 148);
+}
+
+#img3{
+    height: 350px;
+}
+
+#abtMeFooter{
+    margin: 200px 0 0 0;
+}
+
+#trvlTitle, #eatTitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#travelBody, #eatBody{
+    text-align: left;
+}
+
+.BPTT, .BPTE{
+    font-family: 'Times New Roman';
+    font-size: x-large;
+}
+
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px 250px;
+}
+
+.paraTravel, .paraEat{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
